@@ -1,0 +1,132 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<university name="National Institute of Technology">
+    <campus>
+        <location>Silchar, Assam, India</location>
+        <established>1960</established>
+        <website>https://www.nits.ac.in</website>
+    </campus>
+    <departments>
+        <department id="CSE">
+            <name>Computer Science and Engineering</name>
+            <hod>Dr. Rajesh Kumar</hod>
+            <building>Academic Block A</building>
+            <students>
+                <student id="CSE001">
+                    <personal_details>
+                        <name><first_name>Rahul</first_name><last_name>Sharma</last_name></name>
+                        <gender>Male</gender><date_of_birth>2003-05-14</date_of_birth>
+                        <phone>9876543210</phone><email>rahul.sharma@example.com</email>
+                        <address><street>MG Road</street><city>Guwahati</city><state>Assam</state><postal_code>781001</postal_code></address>
+                    </personal_details>
+                    <academic_details>
+                        <year>3</year><semester>6</semester><cgpa>8.72</cgpa><advisor>Dr. Anil Das</advisor>
+                        <courses>
+                            <course code="CS301"><name>Database Management Systems</name><credits>4</credits><marks>88</marks><grade>A</grade></course>
+                            <course code="CS302"><name>Computer Networks</name><credits>4</credits><marks>91</marks><grade>A+</grade></course>
+                            <course code="CS303"><name>Operating Systems</name><credits>4</credits><marks>84</marks><grade>A</grade></course>
+                            <course code="CS304"><name>Artificial Intelligence</name><credits>3</credits><marks>89</marks><grade>A</grade></course>
+                        </courses>
+                    </academic_details>
+                </student>
+                <student id="CSE002">
+                    <personal_details>
+                        <name><first_name>Anita</first_name><last_name>Das</last_name></name>
+                        <gender>Female</gender><date_of_birth>2004-02-21</date_of_birth>
+                        <phone>9123456780</phone><email>anita.das@example.com</email>
+                        <address><street>College Road</street><city>Silchar</city><state>Assam</state><postal_code>788010</postal_code></address>
+                    </personal_details>
+                    <academic_details>
+                        <year>2</year><semester>4</semester><cgpa>9.12</cgpa><advisor>Dr. Priya Sharma</advisor>
+                        <courses>
+                            <course code="CS201"><name>Data Structures</name><credits>4</credits><marks>95</marks><grade>A+</grade></course>
+                            <course code="CS202"><name>Object Oriented Programming</name><credits>4</credits><marks>92</marks><grade>A+</grade></course>
+                            <course code="CS203"><name>Discrete Mathematics</name><credits>3</credits><marks>87</marks><grade>A</grade></course>
+                            <course code="CS204"><name>Digital Logic Design</name><credits>3</credits><marks>90</marks><grade>A+</grade></course>
+                        </courses>
+                    </academic_details>
+                </student>
+                <student id="CSE003">
+                    <personal_details>
+                        <name><first_name>Rohan</first_name><last_name>Singh</last_name></name>
+                        <gender>Male</gender><date_of_birth>2002-11-07</date_of_birth>
+                        <phone>9988776655</phone><email>rohan.singh@example.com</email>
+                        <address><street>Station Road</street><city>Dimapur</city><state>Nagaland</state><postal_code>797112</postal_code></address>
+                    </personal_details>
+                    <academic_details>
+                        <year>4</year><semester>8</semester><cgpa>8.45</cgpa><advisor>Dr. S. Chatterjee</advisor>
+                        <courses>
+                            <course code="CS401"><name>Machine Learning</name><credits>4</credits><marks>86</marks><grade>A</grade></course>
+                            <course code="CS402"><name>Information Security</name><credits>4</credits><marks>90</marks><grade>A+</grade></course>
+                            <course code="CS403"><name>Cloud Computing</name><credits>3</credits><marks>82</marks><grade>A</grade></course>
+                            <course code="CS404"><name>Project</name><credits>6</credits><marks>94</marks><grade>A+</grade></course>
+                        </courses>
+                    </academic_details>
+                </student>
+            </students>
+        </department>
+        <department id="ECE">
+            <name>Electronics and Communication Engineering</name>
+            <hod>Dr. Meena Verma</hod>
+            <building>Academic Block B</building>
+            <students>
+                <student id="ECE001">
+                    <personal_details>
+                        <name><first_name>Priya</first_name><last_name>Sharma</last_name></name>
+                        <gender>Female</gender><date_of_birth>2003-08-19</date_of_birth>
+                        <phone>9012345678</phone><email>priya.sharma@example.com</email>
+                        <address><street>Hospital Road</street><city>Silchar</city><state>Assam</state><postal_code>788011</postal_code></address>
+                    </personal_details>
+                    <academic_details>
+                        <year>3</year><semester>6</semester><cgpa>8.91</cgpa><advisor>Dr. A. Roy</advisor>
+                        <courses>
+                            <course code="EC301"><name>Digital Signal Processing</name><credits>4</credits><marks>91</marks><grade>A+</grade></course>
+                            <course code="EC302"><name>Microprocessors</name><credits>4</credits><marks>87</marks><grade>A</grade></course>
+                            <course code="EC303"><name>Communication Systems</name><credits>4</credits><marks>93</marks><grade>A+</grade></course>
+                            <course code="EC304"><name>Embedded Systems</name><credits>3</credits><marks>89</marks><grade>A</grade></course>
+                        </courses>
+                    </academic_details>
+                </student>
+                <student id="ECE002">
+                    <personal_details>
+                        <name><first_name>Vivek</first_name><last_name>Mehta</last_name></name>
+                        <gender>Male</gender><date_of_birth>2004-01-13</date_of_birth>
+                        <phone>9345678123</phone><email>vivek.mehta@example.com</email>
+                        <address><street>Central Road</street><city>Agartala</city><state>Tripura</state><postal_code>799001</postal_code></address>
+                    </personal_details>
+                    <academic_details>
+                        <year>2</year><semester>4</semester><cgpa>8.36</cgpa><advisor>Dr. K. Singh</advisor>
+                        <courses>
+                            <course code="EC201"><name>Circuit Theory</name><credits>4</credits><marks>84</marks><grade>A</grade></course>
+                            <course code="EC202"><name>Electronic Devices</name><credits>4</credits><marks>80</marks><grade>A</grade></course>
+                            <course code="EC203"><name>Signals and Systems</name><credits>3</credits><marks>85</marks><grade>A</grade></course>
+                        </courses>
+                    </academic_details>
+                </student>
+            </students>
+        </department>
+        <department id="ME">
+            <name>Mechanical Engineering</name>
+            <hod>Dr. Amit Singh</hod>
+            <building>Academic Block C</building>
+            <students>
+                <student id="ME001">
+                    <personal_details>
+                        <name><first_name>Arjun</first_name><last_name>Patel</last_name></name>
+                        <gender>Male</gender><date_of_birth>2003-06-30</date_of_birth>
+                        <phone>9234567890</phone><email>arjun.patel@example.com</email>
+                        <address><street>Main Bazaar</street><city>Imphal</city><state>Manipur</state><postal_code>795001</postal_code></address>
+                    </personal_details>
+                    <academic_details>
+                        <year>3</year><semester>6</semester><cgpa>7.95</cgpa><advisor>Dr. R. Gupta</advisor>
+                        <courses>
+                            <course code="ME301"><name>Thermodynamics</name><credits>4</credits><marks>79</marks><grade>B+</grade></course>
+                            <course code="ME302"><name>Fluid Mechanics</name><credits>4</credits><marks>83</marks><grade>A</grade></course>
+                            <course code="ME303"><name>Machine Design</name><credits>4</credits><marks>81</marks><grade>A</grade></course>
+                            <course code="ME304"><name>Manufacturing Technology</name><credits>3</credits><marks>76</marks><grade>B+</grade></course>
+                        </courses>
+                    </academic_details>
+                </student>
+            </students>
+        </department>
+    </departments>
+</university>
